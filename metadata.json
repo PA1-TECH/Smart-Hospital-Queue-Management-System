@@ -1,0 +1,6 @@
+{
+  "name": "Smart Hospital Queue Management System",
+  "description": "An AI-powered hospital queue and appointment management system with waiting time predictions, priority sorting, and user-role access.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
