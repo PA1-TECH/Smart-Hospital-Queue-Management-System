@@ -1,6 +1,5 @@
 import express from "express";
 import path from "path";
-import { fileURLToPath } from "url";
 import fs from "fs";
 import { GoogleGenAI, Type } from "@google/genai";
 import { createServer as createViteServer } from "vite";
@@ -8,16 +7,13 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 const app = express();
 app.use(express.json());
 
 const PORT = 3000;
 
 // Path for state preservation
-const STATE_FILE_PATH = path.join(__dirname, "queue_state_persistence.json");
+const STATE_FILE_PATH = path.join(process.cwd(), "queue_state_persistence.json");
 
 // System Initial State Types
 import { Department, Doctor, Appointment, PriorityLevel } from "./src/types.js";
