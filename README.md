@@ -46,4 +46,4 @@ npm run start
 
 ---
 
-*Genesys Care Clinical Triage — Crafted for smart clinic throughput.*
+Smart-Hospital-Queue — Crafted for smart clinic throughput.
