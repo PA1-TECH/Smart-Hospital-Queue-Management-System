@@ -1,6 +1,6 @@
-# 🩺 Genesys Care: Intelligent Triage & Clinic Congestion Flow
+# 🩺 Smart-Hospital-Queue-Management-System
 
-Genesys Care is a full-stack, real-time medical walk-in queue monitor paired with intelligent symptoms pre-triage recommendations. Built with **React 18**, **Tailwind CSS**, and **Node.js (Express)**, it manages incoming patient volume, predicts clinical bottlenecks, conducts immediate Gemini-assisted priority assessments, and dispatches digital consultation passes with a built-in printer simulator.
+Smart Hospital Queue is a full-stack, real-time medical walk-in queue monitor paired with intelligent symptoms pre-triage recommendations. Built with React 18, Tailwind CSS, and Node.js (Express), it manages incoming patient volume, predicts clinical bottlenecks, conducts immediate Gemini-assisted priority assessments, and dispatches digital consultation passes with a built-in printer simulator.
 
 ---
 
